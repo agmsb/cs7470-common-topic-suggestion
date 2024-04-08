@@ -70,6 +70,8 @@ def get_topic_suggestion(common_topics):
        abrv_topic += 'Lifestyle'
     elif 'Pop culture' in topic:
        abrv_topic += 'Pop culture'
+    elif 'Hobbies' in topic:
+       abrv_topic += 'Hobbies'
     else:
        abrv_topic += 'Science and technology'
     body = 'Common topic identified: {abrv_topic}'.format(abrv_topic=abrv_topic)
